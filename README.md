@@ -20,5 +20,5 @@ An open-source/minimalist URL shortener
 ## 🛠️ Stack
 
 - [**Astro**](https://astro.build/) - The web framework for content-driven websites
-- [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
-- [**Prettier**](https://prettier.io/) + [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) - An opinionated code formatter.
+- [**Tailwindcss**](https://tailwindcss.com/) + [**Tailwind CSS Animated**](https://tailwindcss-animated.com/) - A utility-first CSS framework for rapidly building custom designs.
+- [**Prettier**](https://prettier.io/) - An opinionated code formatter.
