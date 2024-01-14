@@ -15,7 +15,9 @@ const { href } = Astro.props
     <p>{text}</p>
     <a
       class="ml-1 hover:text-white hover:transition duration-200 ease-in-out"
-      href={href}>{name}</a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer">{name}</a
     >
   </div>
 </footer>
