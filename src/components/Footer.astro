@@ -10,11 +10,12 @@ const { text } = Astro.props
 const { href } = Astro.props
 ---
 
-<footer>
-  <div class="container flex fixed bottom-0 mb-6 text-[#6B7280] opacity-90">
-    <div class="flex mx-auto">
-      <p>{text}</p>
-      <a class="ml-1" href={href}>{name}</a>
-    </div>
+<footer class="fixed bottom-0 mb-6 w-full">
+  <div class="flex mx-auto justify-center items-center text-[#6B7280]">
+    <p>{text}</p>
+    <a
+      class="ml-1 hover:text-white hover:transition duration-200 ease-in-out"
+      href={href}>{name}</a
+    >
   </div>
 </footer>
