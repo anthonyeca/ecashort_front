@@ -1,48 +1,32 @@
 ---
+import { Form } from '../components/Form'
 import Layout from '../layouts/Layout.astro'
-import Card from '../components/Card.astro'
+import apiService from '../services/apiService'
 ---
 
 <Layout title="URL Shortener - ecashort">
   <main class="m-auto p-4 text-white text-lg">
     <div class="flex flex-col items-center justify-center pt-20 pb-20">
-      <h1
-        class="text-3xl md:text-6xl mb-2 md:mb-5 opacity-85 animate-fade animate-duration-500"
-      >
-        Open Source
-        <span class="text-gradient">Link Shortener</span>
-      </h1>
+      <div class="flex justify-center items-center">
+        <h1
+          class="text-2xl md:text-6xl md:mb-2 mb-8 opacity-85 animate-fade animate-duration-500"
+        >
+          Open Source
+          <span class="text-gradient">Link Shortener</span>
+        </h1>
+      </div>
 
-      <form class="animate-fade" action="">
-        <label for="url">Enter your URL</label>
-        <input
-          id="url"
-          class="instructions text-white rounded-md ml-2 px-4 py-2"
-          type="text"
-          placeholder="https://anthonyeca.dev"
-        />
-      </form>
+      <Form client:load />
     </div>
-  </main>
 
-  <style>
-    .text-gradient {
-      background-image: var(--accent-gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-size: 400%;
-      background-position: 0%;
-    }
-    label {
-      color: rgb(var(--accent-light));
-      font-weight: bold;
-    }
-    .instructions {
-      border: 1px solid rgba(var(--accent-light), 25%);
-      background: linear-gradient(
-        rgba(var(--accent-dark), 66%),
-        rgba(var(--accent-dark), 33%)
-      );
-    }
-  </style>
+    <style>
+      .text-gradient {
+        background-image: var(--accent-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 400%;
+        background-position: 0%;
+      }
+    </style>
+  </main>
 </Layout>
