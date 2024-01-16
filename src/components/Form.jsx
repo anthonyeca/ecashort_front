@@ -92,7 +92,7 @@ export const Form = () => {
             class="justify-start text-white rounded-md px-4 py-2"
             style={instructions}
             type="text"
-            // autocomplete="off"
+            autocomplete="off"
             required
             placeholder="https://anthonyeca.dev"
             onChange={(event) => setUrl(event.target.value)}
@@ -112,16 +112,18 @@ export const Form = () => {
         )}
       </div>
 
-      <div class="flex justify-center items-center">
+      <div>
         {showLinkInfo && link && (
-          <article class="flex justify-center items-center gap-2 flex-col lg:flex-row">
-            <div class="flex flex-col items-center">
-              <p>URL</p>
-              <p class="text-md text-pretty">{link.shortUrl}</p>
-            </div>
-            <div class="flex flex-col items-center">
-              <p>Count of clicks</p>
-              <p>{link.clicks}</p>
+          <article
+            class="p-1.5 mx-auto sm:my-4 max-w-sm rounded-xl border-gray-300
+          
+          "
+          >
+            <div class="bg-[#1d1d1d]  z-10 p-5 rounded-lg">
+              <h4 class="text-white  text-xl smtext-2xl font-bold">
+                {link.shortUrl}
+              </h4>
+              <p class=" text-gray-400">Count of clicks {link.clicks}</p>
             </div>
           </article>
         )}
