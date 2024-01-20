@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-    <a href="#-stack" target="_blank">
+    <a href="#stack" target="_blank">
         Stack
     </a>
     <span>&nbsp;🔹&nbsp;</span>
