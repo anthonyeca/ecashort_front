@@ -6,11 +6,11 @@
 </div>
 
 <div align="center">
-    <a href="#Stack" target="_blank">
+    <a href="#-stack" target="_blank">
         Stack
     </a>
     <span>&nbsp;🔹&nbsp;</span>
-    <a href="#Getting Started" target="_blank">
+    <a href="#getting-started" target="_blank">
         Stack
     </a>
     
