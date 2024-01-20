@@ -11,7 +11,7 @@
     </a>
     <span>&nbsp;🔹&nbsp;</span>
     <a href="#getting-started" target="_blank">
-        Stack
+        Getting started
     </a>
     
 </div>
