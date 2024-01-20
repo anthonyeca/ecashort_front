@@ -1,6 +1,6 @@
 <div align="center">
 <a href="">
-<!-- <img src="static/images/readme.png"> -->
+<img src="./public/ecashort.webp">
 </a>
 <p></p>
 </div>
