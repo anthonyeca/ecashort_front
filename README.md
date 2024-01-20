@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-    <a href="#🛠️stack" target="_blank">
+    <a href="#stack" target="_blank">
         Stack
     </a>
     <span>&nbsp;🔹&nbsp;</span>
@@ -20,7 +20,7 @@
 
 An open-source/minimalist URL shortener
 
-## 🛠️ Stack
+## Stack
 
 - [**Astro**](https://astro.build/) - The web framework for content-driven websites
 - [**Tailwindcss**](https://tailwindcss.com/) + [**Tailwind CSS Animated**](https://tailwindcss-animated.com/) - A utility-first CSS framework for rapidly building custom designs.
